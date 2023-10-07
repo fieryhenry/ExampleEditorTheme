@@ -39,3 +39,17 @@ the different fields mean:
     [semantic versioning](https://semver.org/).
 - `description`: A description of the theme. This is shown in the editor to the
   user.
+- `colors`: The colors used in the theme. These are used in the editor to color
+  the different text. The values for the colors should be in hex format, and
+  should be surrounded by quotes, e.g `"#FFFFFF"`. The colors are:
+  - `primary`: This is used for any text that doesn't have a specific color.
+  - `secondary`: This is used for highlighting text when the text color is
+    not primary or secondary.
+  - `tertiary`: This is used for highlighting text when the text color is
+    primary or secondary.
+  - `quaternary`: This is mainly used for status text, e.g "Downloading
+    ...", "Checking for updates ...". etc.
+  - `error`: This is used for error messages.
+  - `warning`: This is used for warning  messages, usually if there is a
+    ban risk or a save corruption risk.
+  - `success`: This is used for successfully completed actions.
