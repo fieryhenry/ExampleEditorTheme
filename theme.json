@@ -1,14 +1,14 @@
 {
     "short_name": "example",
-    "name": "Example",
+    "name": "Example v2",
     "description": "Example external theme for the editor",
     "author": "fieryhenry",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "colors": {
         "primary": "#FFFFFF",
         "secondary": "#FFFFFF",
         "quaternary": "#008000",
-        "tertiary": "#FF0000",
+        "tertiary": "#FFFF00",
         "error": "#FF0000",
         "warning": "#FF0000",
         "success": "#00FF00"
