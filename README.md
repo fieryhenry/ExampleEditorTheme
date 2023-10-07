@@ -21,3 +21,21 @@ make suggestions in the `#suggestions` channel.
 The theme will be added into the `external_themes` folder in `bcsfe` in your
 documents folder. The folder name will be `ext-<author>-<short_name>` so that
 collisions with other themes are avoided.
+
+## Theme.json file
+
+The `theme.json` file contains the data about the theme. Here are what
+the different fields mean:
+
+- `short_name`: The short code for the theme. This is used in the file name and
+  config value in the editor and so shouldn't really contain any spaces or
+    special characters.
+- `name`: The name of the theme. This is what will be shown in
+  the editor to the user.
+- `author`: The name of the author of the theme.
+- `version`: The version of the theme. This is used to check for updates to the
+  theme. Every time you want to release an update to the theme, you should
+    increase this. It can be any string, but it is recommended to use
+    [semantic versioning](https://semver.org/).
+- `description`: A description of the theme. This is shown in the editor to the
+  user.
